@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get('/api/profile/tiktok', (req, res) => {
-    console.log(res);
+    console.log(req);
     
     /* const scraper = new TTScraper()
     scraper.user() */
