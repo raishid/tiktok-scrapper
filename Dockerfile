@@ -1,13 +1,4 @@
-# FROM debian:latest
-
-# RUN apt update && apt install -y unzip xvfb libxi6 libgconf-2-4 wget curl wget && apt-get -y autoclean
-# RUN apt install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2
-
-# RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
-# RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-# RUN apt update && apt install -y google-chrome-stable
-
-FROM allanmleite/puppeter-base:latest
+FROM jrmacks/docker-puppeteer:latest
 
 RUN apt update && apt install -y unzip xvfb libxi6 libgconf-2-4 wget curl wget && apt-get -y autoclean
 RUN apt install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2
