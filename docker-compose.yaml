@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  apptiktok:
+    build: .
+    ports:
+      - "3050:3050"
