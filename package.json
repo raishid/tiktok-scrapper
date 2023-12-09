@@ -16,7 +16,8 @@
     "nodemon": "^3.0.1",
     "tiktok-scraper-ts": "^1.4.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "dotenv": "16.3.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.14",

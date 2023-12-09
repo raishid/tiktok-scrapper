@@ -1,2 +1,4 @@
 node_modules/
 cookies.txt
+pnpm-lock.yaml
+.env
